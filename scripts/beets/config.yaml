@@ -1,0 +1,26 @@
+directory: \\WDMYCLOUD\Public\Shared Music
+
+import:
+    copy: yes
+    write: yes
+    move: no
+    timid: no
+    duplicate_action: skip
+    default_action: apply
+    log: beetslog.txt
+
+chroma:
+    auto: yes
+    
+acoustid:
+    apikey: IPOwHHYP51
+    
+plugins: chroma
+pluginpath: C:\Users\server\AppData\Roaming\beets\plugins
+threaded: yes
+ui:
+    color: yes
+match:
+    strong_rec_thresh: 0.75
+musicbrainz:
+    searchlimit: 5
